@@ -1,0 +1,261 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "Windows/lib/absl_debugging_internal.lib"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"absl_cc_library",
+			"install",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"abseil-cpp/CMake/AbseilHelpers.cmake",
+			"abseil-cpp/absl/debugging/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 150,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 220,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 222,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 239,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/W3"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/DNOMINMAX"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/DWIN32_LEAN_AND_MEAN"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/D_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/D_SCL_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/D_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/bigobj"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4005"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4068"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4180"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4267"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4503"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/wd4800"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "D:/personal/studycode/xrtc/xrtc-third_party/abseil-cpp"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "raw_logging_internal::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "log_severity::@75832566c74ae67f1846"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil/internal"
+	},
+	"id" : "debugging_internal::@219259b7d0a2efed4773",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "D:/personal/studycode/xrtc/xrtc-third_party/out/install/x64-Debug/Windows"
+		}
+	},
+	"name" : "debugging_internal",
+	"nameOnDisk" : "absl_debugging_internal.lib",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/debugging",
+		"source" : "abseil-cpp/absl/debugging"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "abseil-cpp/absl/debugging/internal/address_is_readable.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "abseil-cpp/absl/debugging/internal/elf_mem_image.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "abseil-cpp/absl/debugging/internal/vdso_support.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"path" : "abseil-cpp/absl/debugging/internal/address_is_readable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "abseil-cpp/absl/debugging/internal/elf_mem_image.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"path" : "abseil-cpp/absl/debugging/internal/vdso_support.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

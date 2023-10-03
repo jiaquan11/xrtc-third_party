@@ -1,0 +1,627 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"abseil-cpp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 207,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 225,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/absl",
+			"exportName" : "abslTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "atomic_hook::@75832566c74ae67f1846",
+					"index" : 0
+				},
+				{
+					"id" : "errno_saver::@75832566c74ae67f1846",
+					"index" : 0
+				},
+				{
+					"id" : "log_severity::@75832566c74ae67f1846",
+					"index" : 35
+				},
+				{
+					"id" : "raw_logging_internal::@75832566c74ae67f1846",
+					"index" : 51
+				},
+				{
+					"id" : "spinlock_wait::@75832566c74ae67f1846",
+					"index" : 53
+				},
+				{
+					"id" : "config::@75832566c74ae67f1846",
+					"index" : 0
+				},
+				{
+					"id" : "dynamic_annotations::@75832566c74ae67f1846",
+					"index" : 0
+				},
+				{
+					"id" : "core_headers::@75832566c74ae67f1846",
+					"index" : 0
+				},
+				{
+					"id" : "malloc_internal::@75832566c74ae67f1846",
+					"index" : 37
+				},
+				{
+					"id" : "base_internal::@75832566c74ae67f1846",
+					"index" : 0
+				},
+				{
+					"id" : "base::@75832566c74ae67f1846",
+					"index" : 3
+				},
+				{
+					"id" : "throw_delegate::@75832566c74ae67f1846",
+					"index" : 63
+				},
+				{
+					"id" : "pretty_function::@75832566c74ae67f1846",
+					"index" : 0
+				},
+				{
+					"id" : "endian::@75832566c74ae67f1846",
+					"index" : 0
+				},
+				{
+					"id" : "exponential_biased::@75832566c74ae67f1846",
+					"index" : 15
+				},
+				{
+					"id" : "periodic_sampler::@75832566c74ae67f1846",
+					"index" : 38
+				},
+				{
+					"id" : "scoped_set_env::@75832566c74ae67f1846",
+					"index" : 52
+				},
+				{
+					"id" : "strerror::@75832566c74ae67f1846",
+					"index" : 58
+				},
+				{
+					"id" : "fast_type_id::@75832566c74ae67f1846",
+					"index" : 0
+				},
+				{
+					"id" : "algorithm::@d09470c3f1e15291c801",
+					"index" : 0
+				},
+				{
+					"id" : "algorithm_container::@d09470c3f1e15291c801",
+					"index" : 0
+				},
+				{
+					"id" : "cleanup_internal::@889c8a2174cd25230358",
+					"index" : 0
+				},
+				{
+					"id" : "cleanup::@889c8a2174cd25230358",
+					"index" : 0
+				},
+				{
+					"id" : "btree::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "compressed_tuple::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "fixed_array::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "inlined_vector_internal::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "inlined_vector::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "counting_allocator::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "flat_hash_map::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "flat_hash_set::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "node_hash_map::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "node_hash_set::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "container_memory::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "hash_function_defaults::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "hash_policy_traits::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "hashtablez_sampler::@38979ed14ab5174a6c5b",
+					"index" : 31
+				},
+				{
+					"id" : "hashtable_debug::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "hashtable_debug_hooks::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "have_sse::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "node_hash_policy::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "raw_hash_map::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "container_common::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "raw_hash_set::@38979ed14ab5174a6c5b",
+					"index" : 50
+				},
+				{
+					"id" : "layout::@38979ed14ab5174a6c5b",
+					"index" : 0
+				},
+				{
+					"id" : "stacktrace::@219259b7d0a2efed4773",
+					"index" : 54
+				},
+				{
+					"id" : "symbolize::@219259b7d0a2efed4773",
+					"index" : 61
+				},
+				{
+					"id" : "examine_stack::@219259b7d0a2efed4773",
+					"index" : 14
+				},
+				{
+					"id" : "failure_signal_handler::@219259b7d0a2efed4773",
+					"index" : 16
+				},
+				{
+					"id" : "debugging_internal::@219259b7d0a2efed4773",
+					"index" : 12
+				},
+				{
+					"id" : "demangle_internal::@219259b7d0a2efed4773",
+					"index" : 13
+				},
+				{
+					"id" : "leak_check::@219259b7d0a2efed4773",
+					"index" : 33
+				},
+				{
+					"id" : "leak_check_disable::@219259b7d0a2efed4773",
+					"index" : 34
+				},
+				{
+					"id" : "debugging::@219259b7d0a2efed4773",
+					"index" : 0
+				},
+				{
+					"id" : "flags_path_util::@46d3d334a885d99aa2ab",
+					"index" : 0
+				},
+				{
+					"id" : "flags_program_name::@46d3d334a885d99aa2ab",
+					"index" : 25
+				},
+				{
+					"id" : "flags_config::@46d3d334a885d99aa2ab",
+					"index" : 20
+				},
+				{
+					"id" : "flags_marshalling::@46d3d334a885d99aa2ab",
+					"index" : 22
+				},
+				{
+					"id" : "flags_commandlineflag_internal::@46d3d334a885d99aa2ab",
+					"index" : 19
+				},
+				{
+					"id" : "flags_commandlineflag::@46d3d334a885d99aa2ab",
+					"index" : 18
+				},
+				{
+					"id" : "flags_private_handle_accessor::@46d3d334a885d99aa2ab",
+					"index" : 24
+				},
+				{
+					"id" : "flags_reflection::@46d3d334a885d99aa2ab",
+					"index" : 26
+				},
+				{
+					"id" : "flags_internal::@46d3d334a885d99aa2ab",
+					"index" : 21
+				},
+				{
+					"id" : "flags::@46d3d334a885d99aa2ab",
+					"index" : 17
+				},
+				{
+					"id" : "flags_usage_internal::@46d3d334a885d99aa2ab",
+					"index" : 28
+				},
+				{
+					"id" : "flags_usage::@46d3d334a885d99aa2ab",
+					"index" : 27
+				},
+				{
+					"id" : "flags_parse::@46d3d334a885d99aa2ab",
+					"index" : 23
+				},
+				{
+					"id" : "bind_front::@173290170077b75d0933",
+					"index" : 0
+				},
+				{
+					"id" : "function_ref::@173290170077b75d0933",
+					"index" : 0
+				},
+				{
+					"id" : "hash::@c99ffac11d44b2bb9e1e",
+					"index" : 30
+				},
+				{
+					"id" : "city::@c99ffac11d44b2bb9e1e",
+					"index" : 4
+				},
+				{
+					"id" : "low_level_hash::@c99ffac11d44b2bb9e1e",
+					"index" : 36
+				},
+				{
+					"id" : "memory::@6cad0643b655fb0a1bf6",
+					"index" : 0
+				},
+				{
+					"id" : "type_traits::@de2a9f301f9421021c0e",
+					"index" : 0
+				},
+				{
+					"id" : "meta::@de2a9f301f9421021c0e",
+					"index" : 0
+				},
+				{
+					"id" : "bits::@35227d1743c50db2a020",
+					"index" : 0
+				},
+				{
+					"id" : "int128::@35227d1743c50db2a020",
+					"index" : 32
+				},
+				{
+					"id" : "numeric::@35227d1743c50db2a020",
+					"index" : 0
+				},
+				{
+					"id" : "numeric_representation::@35227d1743c50db2a020",
+					"index" : 0
+				},
+				{
+					"id" : "sample_recorder::@32e96278b207b6e80fe8",
+					"index" : 0
+				},
+				{
+					"id" : "random_random::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "random_bit_gen_ref::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "random_internal_mock_helpers::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "random_distributions::@6806f2205fdb956db665",
+					"index" : 39
+				},
+				{
+					"id" : "random_seed_gen_exception::@6806f2205fdb956db665",
+					"index" : 48
+				},
+				{
+					"id" : "random_seed_sequences::@6806f2205fdb956db665",
+					"index" : 49
+				},
+				{
+					"id" : "random_internal_traits::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "random_internal_distribution_caller::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "random_internal_fast_uniform_bits::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "random_internal_seed_material::@6806f2205fdb956db665",
+					"index" : 47
+				},
+				{
+					"id" : "random_internal_pool_urbg::@6806f2205fdb956db665",
+					"index" : 42
+				},
+				{
+					"id" : "random_internal_salted_seed_seq::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "random_internal_iostream_state_saver::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "random_internal_generate_real::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "random_internal_wide_multiply::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "random_internal_fastmath::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "random_internal_nonsecure_base::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "random_internal_pcg_engine::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "random_internal_randen_engine::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "random_internal_platform::@6806f2205fdb956db665",
+					"index" : 41
+				},
+				{
+					"id" : "random_internal_randen::@6806f2205fdb956db665",
+					"index" : 43
+				},
+				{
+					"id" : "random_internal_randen_slow::@6806f2205fdb956db665",
+					"index" : 46
+				},
+				{
+					"id" : "random_internal_randen_hwaes::@6806f2205fdb956db665",
+					"index" : 44
+				},
+				{
+					"id" : "random_internal_randen_hwaes_impl::@6806f2205fdb956db665",
+					"index" : 45
+				},
+				{
+					"id" : "random_internal_distribution_test_util::@6806f2205fdb956db665",
+					"index" : 40
+				},
+				{
+					"id" : "random_internal_uniform_helper::@6806f2205fdb956db665",
+					"index" : 0
+				},
+				{
+					"id" : "status::@87803965b4bca9d8e792",
+					"index" : 55
+				},
+				{
+					"id" : "statusor::@87803965b4bca9d8e792",
+					"index" : 56
+				},
+				{
+					"id" : "strings::@a4cc995c3473953680d9",
+					"index" : 59
+				},
+				{
+					"id" : "strings_internal::@a4cc995c3473953680d9",
+					"index" : 60
+				},
+				{
+					"id" : "str_format::@a4cc995c3473953680d9",
+					"index" : 0
+				},
+				{
+					"id" : "str_format_internal::@a4cc995c3473953680d9",
+					"index" : 57
+				},
+				{
+					"id" : "cord_internal::@a4cc995c3473953680d9",
+					"index" : 7
+				},
+				{
+					"id" : "cordz_update_tracker::@a4cc995c3473953680d9",
+					"index" : 0
+				},
+				{
+					"id" : "cordz_functions::@a4cc995c3473953680d9",
+					"index" : 8
+				},
+				{
+					"id" : "cordz_statistics::@a4cc995c3473953680d9",
+					"index" : 0
+				},
+				{
+					"id" : "cordz_handle::@a4cc995c3473953680d9",
+					"index" : 9
+				},
+				{
+					"id" : "cordz_info::@a4cc995c3473953680d9",
+					"index" : 10
+				},
+				{
+					"id" : "cordz_sample_token::@a4cc995c3473953680d9",
+					"index" : 11
+				},
+				{
+					"id" : "cordz_update_scope::@a4cc995c3473953680d9",
+					"index" : 0
+				},
+				{
+					"id" : "cord::@a4cc995c3473953680d9",
+					"index" : 6
+				},
+				{
+					"id" : "graphcycles_internal::@521f103004ddf07c77e4",
+					"index" : 29
+				},
+				{
+					"id" : "kernel_timeout_internal::@521f103004ddf07c77e4",
+					"index" : 0
+				},
+				{
+					"id" : "synchronization::@521f103004ddf07c77e4",
+					"index" : 62
+				},
+				{
+					"id" : "time::@5957f09260692b46a445",
+					"index" : 64
+				},
+				{
+					"id" : "civil_time::@5957f09260692b46a445",
+					"index" : 5
+				},
+				{
+					"id" : "time_zone::@5957f09260692b46a445",
+					"index" : 65
+				},
+				{
+					"id" : "any::@019a197c0fd06ca84799",
+					"index" : 0
+				},
+				{
+					"id" : "bad_any_cast::@019a197c0fd06ca84799",
+					"index" : 0
+				},
+				{
+					"id" : "bad_any_cast_impl::@019a197c0fd06ca84799",
+					"index" : 0
+				},
+				{
+					"id" : "span::@019a197c0fd06ca84799",
+					"index" : 0
+				},
+				{
+					"id" : "optional::@019a197c0fd06ca84799",
+					"index" : 0
+				},
+				{
+					"id" : "bad_optional_access::@019a197c0fd06ca84799",
+					"index" : 1
+				},
+				{
+					"id" : "bad_variant_access::@019a197c0fd06ca84799",
+					"index" : 2
+				},
+				{
+					"id" : "variant::@019a197c0fd06ca84799",
+					"index" : 0
+				},
+				{
+					"id" : "compare::@019a197c0fd06ca84799",
+					"index" : 0
+				},
+				{
+					"id" : "utility::@2e8996aefc648aad8982",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"abseil-cpp/CMakeFiles/Export/e85e24066b3e116917fcd0763656dbe9/abslTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/absl",
+			"paths" : 
+			[
+				"out/build/x64-debug/abseil-cpp/abslConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"abseil-cpp/absl"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "abseil-cpp",
+		"source" : "abseil-cpp"
+	}
+}
