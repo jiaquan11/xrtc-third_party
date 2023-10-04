@@ -1,5 +1,6 @@
-cmake_minimum_required (VERSION 3.5)
+﻿cmake_minimum_required (VERSION 3.5)
 
+#定义项目名称
 project(libwebrtc)
 
 # 静态库输出目录
@@ -152,5 +153,3 @@ install(DIRECTORY ${PROJECT_SOURCE_DIR}/src/rtc_base
     FILES_MATCHING
     PATTERN "*.h"
 )
-
-
